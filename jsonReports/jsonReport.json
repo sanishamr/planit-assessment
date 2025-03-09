@@ -64,15 +64,15 @@
   },
   "suites": [
     {
-      "title": "validationFixture.spec.ts",
-      "file": "validationFixture.spec.ts",
+      "title": "validationJupiterPage-Fixture.spec.ts",
+      "file": "validationJupiterPage-Fixture.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Jupiter toy validations",
-          "file": "validationFixture.spec.ts",
+          "title": "Jupiter toy website validations",
+          "file": "validationJupiterPage-Fixture.spec.ts",
           "line": 4,
           "column": 6,
           "specs": [
@@ -89,20 +89,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 35,
+                      "workerIndex": 37,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6259,
+                      "duration": 17379,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-09T10:30:55.577Z",
+                      "startTime": "2025-03-09T11:03:27.929Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\playwrightAutomationAssessment\\test-results\\validationFixture-Jupiter--1d3c5-age-validations-testcase-01-chromium\\test-finished-1.png"
+                          "path": "C:\\playwrightAutomationAssessment\\test-results\\validationJupiterPage-Fixt-5b73a-age-validations-testcase-01-chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -110,8 +110,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "6c5245341f9ae463b23c-fba09a6fc0e0731a4b02",
-              "file": "validationFixture.spec.ts",
+              "id": "60544c6bebdbc00d9f9c-b56b13ca29bbb8cfeba8",
+              "file": "validationJupiterPage-Fixture.spec.ts",
               "line": 6,
               "column": 5
             }
@@ -120,21 +120,10 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "message": "Error: Cannot find module '../pages/homepage1'\nRequire stack:\n- C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\process.js",
-      "stack": "Error: Cannot find module '../pages/homepage1'\nRequire stack:\n- C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\process.js\n    at Object.<anonymous> (C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts:3:1)",
-      "location": {
-        "file": "C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts",
-        "column": 1,
-        "line": 3
-      },
-      "snippet": "\u001b[90m   at \u001b[39mvalidation.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m {test} \u001b[36mfrom\u001b[39m \u001b[32m\"@playwright/test\"\u001b[39m\n \u001b[90m 2 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mHomepage1\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/homepage1\"\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 4 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mCartpage1\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/cartPage1\"\u001b[39m\n \u001b[90m 5 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mContactPage1\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/contactPage1\"\u001b[39m\n \u001b[90m 6 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mShopPage\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/shopPage\"\u001b[39m\u001b[0m"
-    }
-  ],
+  "errors": [],
   "stats": {
-    "startTime": "2025-03-09T10:30:53.057Z",
-    "duration": 9988.069999999832,
+    "startTime": "2025-03-09T11:03:25.314Z",
+    "duration": 21456.35899999994,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
