@@ -64,15 +64,15 @@
   },
   "suites": [
     {
-      "title": "validationJupiterPage-Fixture.spec.ts",
-      "file": "validationJupiterPage-Fixture.spec.ts",
+      "title": "validationJupiterPage-fixture.spec.ts",
+      "file": "validationJupiterPage-fixture.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Jupiter toy website validations",
-          "file": "validationJupiterPage-Fixture.spec.ts",
+          "file": "validationJupiterPage-fixture.spec.ts",
           "line": 4,
           "column": 6,
           "specs": [
@@ -89,20 +89,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 37,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17379,
+                      "duration": 5177,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-09T11:03:27.929Z",
+                      "startTime": "2025-03-09T21:23:41.403Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\playwrightAutomationAssessment\\test-results\\validationJupiterPage-Fixt-5b73a-age-validations-testcase-01-chromium\\test-finished-1.png"
+                          "path": "C:\\playwrightAutomationAssessment\\test-results\\validationJupiterPage-fixt-3768d-age-validations-testcase-01-chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -110,8 +110,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "60544c6bebdbc00d9f9c-b56b13ca29bbb8cfeba8",
-              "file": "validationJupiterPage-Fixture.spec.ts",
+              "id": "5c269739c8acd432849a-96ce863eb64bab5d6e8c",
+              "file": "validationJupiterPage-fixture.spec.ts",
               "line": 6,
               "column": 5
             }
@@ -122,8 +122,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-09T11:03:25.314Z",
-    "duration": 21456.35899999994,
+    "startTime": "2025-03-09T21:23:38.788Z",
+    "duration": 9287.148000000045,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
