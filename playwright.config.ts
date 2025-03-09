@@ -53,7 +53,7 @@ export default defineConfig({
   reporter: [["dot"],["json", {outputFile :"jsonReports/jsonReport.json"}],["html", {open : "always"}]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless: false,
+    headless: true,
     screenshot: 'on',
     video: {
       mode: 'retain-on-failure',
