@@ -1,0 +1,143 @@
+{
+  "config": {
+    "configFile": "C:\\playwrightAutomationAssessment\\playwright.config.ts",
+    "rootDir": "C:/playwrightAutomationAssessment/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/playwrightAutomationAssessment/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/playwrightAutomationAssessment/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.51.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "validationFixture.spec.ts",
+      "file": "validationFixture.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Jupiter toy validations",
+          "file": "validationFixture.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Contact Page validations testcase_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 35,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6259,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-09T10:30:55.577Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwrightAutomationAssessment\\test-results\\validationFixture-Jupiter--1d3c5-age-validations-testcase-01-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6c5245341f9ae463b23c-fba09a6fc0e0731a4b02",
+              "file": "validationFixture.spec.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "Error: Cannot find module '../pages/homepage1'\nRequire stack:\n- C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\process.js",
+      "stack": "Error: Cannot find module '../pages/homepage1'\nRequire stack:\n- C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\esmLoaderHost.js\n- C:\\playwrightAutomationAssessment\\node_modules\\playwright\\lib\\common\\process.js\n    at Object.<anonymous> (C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts:3:1)",
+      "location": {
+        "file": "C:\\playwrightAutomationAssessment\\tests\\validation.spec.ts",
+        "column": 1,
+        "line": 3
+      },
+      "snippet": "\u001b[90m   at \u001b[39mvalidation.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m {test} \u001b[36mfrom\u001b[39m \u001b[32m\"@playwright/test\"\u001b[39m\n \u001b[90m 2 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mHomepage1\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/homepage1\"\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 4 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mCartpage1\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/cartPage1\"\u001b[39m\n \u001b[90m 5 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mContactPage1\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/contactPage1\"\u001b[39m\n \u001b[90m 6 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mShopPage\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"../pages/shopPage\"\u001b[39m\u001b[0m"
+    }
+  ],
+  "stats": {
+    "startTime": "2025-03-09T10:30:53.057Z",
+    "duration": 9988.069999999832,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
